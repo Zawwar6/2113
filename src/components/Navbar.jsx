@@ -17,7 +17,7 @@ const Navbar = () => {
         
         {/* Logo */}
         <div className="flex items-center">
-          <img src="/logo1.png" alt="Logo" className="h-17 drop-shadow-[0_4px_6px_rgba(255,255,255,1)]" />
+          <img src="/logo1.png" alt="Logo" className="h-15 drop-shadow-[0_4px_6px_rgba(255,255,255,1)]" />
          
         </div>
 
