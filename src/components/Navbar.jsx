@@ -5,14 +5,14 @@ const Navbar = () => {
   const handleToggle = () => setIsOpen(!isOpen);
 
   const links = [
-    { name: 'Home', href: '#home' },
+    { name: 'Home', href: '/' },
     { name: 'Services', href: '#services' },
     { name: 'About Us', href: '#about' },
     { name: 'Contact', href: '#contact' },
   ];
 
   return (
-    <nav className="bg-[#1e1e1e] text-white items-center fixed w-full h-[80px] z-50 shadow-lg ">
+    <nav className="bg-white text-black text-center fixed w-full h-[80px] z-50 shadow-lg ">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         
         {/* Logo */}
@@ -22,7 +22,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Links */}
-        <div className="hidden gap-8  font-bold md:flex ">
+        <div className="hidden font-bold gap-8 md:flex ">
           {links.map(link => (
             <a
               key={link.name}
