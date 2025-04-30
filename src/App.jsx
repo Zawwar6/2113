@@ -6,6 +6,7 @@ import ChooseUs from './components/ChooseUs'
 import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import CtaSection from './components/CtaSection'
 const App = () => {
   return (
    <>
@@ -14,6 +15,7 @@ const App = () => {
     <Services/>
     <ChooseUs/>
     <About/>
+    <CtaSection/>
     <Contact/>
     <Footer/>
    </>
