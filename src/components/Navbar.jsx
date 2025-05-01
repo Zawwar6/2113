@@ -57,7 +57,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Dropdown */}
       {isOpen && (
-        <div className="md:hidden flex flex-col space-y-2 bg-[#303030]">
+        <div className="md:hidden flex flex-col space-y-2 bg-black text-white">
           {links.map(link => (
             <a
               key={link.name}
