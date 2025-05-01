@@ -3,6 +3,8 @@ import React from "react";
 
 const Contact = () => {
   return (
+    <>
+    <section id="contact">
     <div className="min-h-screen bg-gray-100 flex flex-col md:flex-row items-center justify-center mt-6 sm:mt-0 p-4 sm:p-6 md:p-16 gap-8 sm:gap-40 font-sans">
       
       {/* Left side content */}
@@ -72,6 +74,8 @@ const Contact = () => {
       {/* </div> */}
     </form>
     </div>
+    </section>
+    </>
   );
 };
 
