@@ -16,9 +16,9 @@ const About = () => {
             <p className="text-gray-700 mb-6">
               Our mission is to modernize international commerce, making it accessible, efficient, and transparent for businesses of all sizes. With a team of industry veterans and tech innovators, we're breaking down barriers to global trade.
             </p>
-            <button className="bg-black cursor-pointer hover:bg-gray-800 text-white font-bold py-3 px-6 rounded-md transition-colors">
+          <a href="#contact"> <button className="bg-black cursor-pointer hover:bg-gray-800 text-white font-bold py-3 px-6 rounded-md transition-colors">
               Learn More About Us
-            </button>
+            </button></a> 
           </div>
 
           {/* SVG Illustration */}

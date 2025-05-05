@@ -59,7 +59,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
              <FontAwesomeIcon icon={faLocationDot} className='text-[#ff5500] mr-3 mt-1' />
-                <span className="text-gray-300">2113 Trade Avenue, Chicago, IL 60607, USA</span>
+                <span className="text-gray-300">2113 Trade, Chicago, IL , USA</span>
               </li>
               <li className="flex items-center">
               <FontAwesomeIcon icon={faPhone} className='text-[#ff5500] mr-3 mt-1' />
@@ -67,7 +67,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
               <FontAwesomeIcon icon={faEnvelope} className='text-[#ff5500] mr-3 mt-1' />
-                <span className="text-gray-300 mt-0.5">info@2113mercatores.com</span>
+                <span className="text-gray-300 mt-0.5">info@2113merc.com</span>
               </li>
             </ul>
           </div>
