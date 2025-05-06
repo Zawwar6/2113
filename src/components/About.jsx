@@ -11,10 +11,24 @@ const About = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-6">About 2113 Mercatores</h2>
             <div className="w-24 h-1 bg-[#ff5500] mb-6"></div>
             <p className="text-gray-700 mb-6">
-              Founded in 2113, Mercatores has revolutionized the global trade industry by combining cutting-edge technology with decades of import/export expertise.
+            2113 Mercatores has reimagined the way the world conducts trade by fusing years of hands-on
+import/export expertise with cutting-edge technological innovation. What began as a bold vision to
+simplify global commerce has evolved into a dynamic force reshaping how businesses of all sizes
+connect, transact, and grow across borders.
+<p className='text-gray-700 mb-7 mt-4'>
+We are driven by a mission to modernize international trade—making it not only more efficient, but
+also radically more accessible and transparent. In a world where outdated systems and fragmented
+logistics often hinder progress, we bring clarity, speed, and reliability to every step of the process.
+</p>
+<p className='text-gray-700 mb-7 '>
+Our team is composed of seasoned trade professionals, logistics strategists, and tech pioneers who
+understand both the complexities of global supply chains and the transformative power of
+technology. Together, we are eliminating traditional barriers to entry and empowering businesses—
+from emerging startups to established enterprises—to thrive in the global marketplace.
+</p>
             </p>
             <p className="text-gray-700 mb-6">
-              Our mission is to modernize international commerce, making it accessible, efficient, and transparent for businesses of all sizes. With a team of industry veterans and tech innovators, we're breaking down barriers to global trade.
+            At 2113 Mercatores, we don’t just facilitate trade; we engineer the future of commerce.
             </p>
           <a href="#contact"> <button className="bg-black cursor-pointer hover:bg-gray-800 text-white font-bold py-3 px-6 rounded-md transition-colors">
               Learn More About Us
